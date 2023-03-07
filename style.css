@@ -1,0 +1,43 @@
+body { 
+    background-image: url(how-to-use-weather.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+body form{
+    background-color: rgba(0, 0, 0, 0.425);
+    opacity: 0.7;
+    background-image: linear-gradient(to right , blue , white , black);
+    height: 500px;
+    width: 500px;
+    margin: 60px 0px 0px 450px;
+    text-align: center;
+    font-style: italic;
+}
+body form label{
+    font-weight: bolder;
+    text-shadow: 8px 8px 8px blue;
+    font-size: 40px;
+}
+body form input{
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 5px ;
+}
+body form button{
+    padding: 10px;
+    margin: 20px;
+    width: 130px;
+    box-shadow: 10px 10px 10px black;
+}
+body form button:hover{
+    background-color: rgb(131, 131, 255);
+    border: 1px solid black;
+    transition: 0.4;
+}
+body form #tempwrite1{
+    border: 2px solid black;
+    padding: 30px;
+}
